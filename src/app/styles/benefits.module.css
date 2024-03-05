@@ -1,0 +1,49 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+
+  width: 100%;
+
+  padding: 4rem 0;
+
+  background: linear-gradient(#f0f0f0, white);
+}
+
+.container > h2 {
+  width: 100%;
+  max-width: 640px;
+
+  font-family: var(--font-roboto);
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 110%;
+
+  text-align: center;
+}
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 2rem;
+
+  width: 100%;
+
+  padding: 4rem 1rem;
+}
+
+@media (min-width: 700px) {
+  .container {
+    padding: 4rem 1rem;
+  }
+
+  .cards {
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: space-between;
+  }
+}

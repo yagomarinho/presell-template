@@ -1,0 +1,30 @@
+:root {
+  --color-branded-primary: #176054;
+  --color-branded-primary-semi-transparent: #1760541e;
+  --color-branded-secundary: #1d90c2;
+  --color-branded-secundary-dark: #0b5e83;
+
+  --color-gray-light: #626262;
+  --color-gray: #3e3e3e;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  outline: none;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100%;
+  min-height: 100vh;
+}
+
+li {
+  list-style: none;
+}
+
+button {
+  cursor: pointer;
+}

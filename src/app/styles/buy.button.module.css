@@ -1,0 +1,18 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+
+  padding: 1rem 2rem;
+
+  border: none;
+  border-radius: 0.5rem;
+
+  font-size: 1rem;
+  font-weight: 900;
+
+  color: white;
+
+  background-color: var(--color-branded-primary);
+}
